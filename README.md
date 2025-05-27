@@ -15,17 +15,16 @@ A simple CHIP-8 emulator written in C++ using SDL2. This emulator loads and runs
 
 ## 📂 Project Structure
 
+```bash
 chip8-emulator/
 ├── src/ # All source files
 │ ├── main.cpp
 │ ├── cpu.cpp/h # Core CPU emulation
 │ ├── display.cpp/h # Graphics output
 │ ├── input.cpp/h # Input handling
-├── roms/ # Test ROMs
-│ └── IBM.ch8
 ├── README.md # This file
-├── Makefile # Simple build system
 └── .gitignore
+```
 
 ## 🚀 Getting Started
 
